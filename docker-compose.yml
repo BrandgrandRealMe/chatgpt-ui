@@ -4,7 +4,7 @@ services:
     platform: linux/x86_64
     image: wongsaang/chatgpt-ui-client:latest
     environment:
-      - SERVER_DOMAIN=http://backend-web-server
+      - SERVER_DOMAIN=
       - DEFAULT_LOCALE=en
 #      - NUXT_PUBLIC_APP_NAME='ChatGPT UI' # The name of the application
 #      - NUXT_PUBLIC_TYPEWRITER=true # Whether to enable the typewriter effect, default false
